@@ -1,0 +1,31 @@
+{
+  "name": "nlw-return-server",
+  "version": "1.0.0",
+  "description": "Back-end for the Feedget application",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "ts-node-dev src/server.ts"
+  },
+  "author": "João Souza",
+  "license": "MIT",
+  "devDependencies": {
+    "@swc/jest": "^0.2.22",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/jest": "^29.0.0",
+    "@types/node": "^18.7.14",
+    "@types/nodemailer": "^6.4.5",
+    "jest": "^29.0.2",
+    "prisma": "^4.2.1",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.2.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemailer": "^6.7.8"
+  }
+}
